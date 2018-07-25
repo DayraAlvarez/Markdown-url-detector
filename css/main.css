@@ -1,0 +1,55 @@
+html {
+    background: linear-gradient(to bottom left, #006699 0%, #33cccc 100%);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100%;
+    text-align: center;
+    width: 100%;
+}
+
+ #content {
+    background: rgba(0, 0, 0, 0.2);
+    margin-top: 3em;
+    padding: 3px 10px;
+    padding-bottom: 30px;
+    position: relative;
+    width: 45em;
+ }
+
+#userInput {
+    background-color: #f8f8f8;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    color: #bfbdbd;
+    font-size: 16px;
+    height: 5em;
+    margin-bottom: 16px;
+    margin-top: 2em;
+    width: 40em;
+}
+
+button {
+    padding: 8px 59px;
+    position: relative;
+    right: 232px;
+}
+
+#showResult {
+    background-color: #f8f8f8;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    color:black;
+    display: inline-flex;
+    height: 5em;
+    margin-top: 16px;
+    padding: 12px 20px;
+    resize: none;
+    width: 40em;
+}
+
+#copyIcon {
+    color: white;
+    left: 598px;
+    margin-top: 82px;
+    position: relative;
+}
