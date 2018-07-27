@@ -1,6 +1,3 @@
-
-'use strict';
-
 function getUrlsMd(transformMdToString) {
     var regex = /!?\[([^\[.]+?)\]\((.+?)\)/g;
 
@@ -68,7 +65,7 @@ function printTextObject(printUrlsMd) {
 
 function myFunction() {
     /* Get the text field */
-    var copyText = document.getElementById("userInput");
+    var copyText = document.getElementById("showResult");
     console.log(copyText)
 
     /* Select the text field */
@@ -76,7 +73,4 @@ function myFunction() {
 
     /* Copy the text inside the text field */
     document.execCommand("copy");
-
-    /* Alert the copied text */
-    alert("Copied the text: " + copyText.value);
   }

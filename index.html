@@ -4,6 +4,7 @@
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title> Markdown Url Detector </title>
+        <link rel="icon" href="assets/url.png"></link>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
         <link rel="stylesheet" href="css/grid.css">
@@ -14,17 +15,26 @@
             <div class="row">
                 <div class="col-12">
             <h1>Markdown url detector</h1>
-
             <form>
                 <textarea onfocus="this.value=''" id="userInput">Paste markdown here...</textarea>
             </form>
-            <div>
-                <button id="btn">Find urls</button>
+            <div id="buttons">
+                <button id="btn">Find urls</button> 
+                <a href=""><button>Start again</button></a>
             </div>
-            <div id="showResult"><a href=""><i id="copyIcon" onclick="myFunction()" class="fas fa-copy"></i></a></div>
+            <div id="showResult"></div>
         </div>
+        </div>
+        <div id="demo">
+            <h3>Demo text:</h3>
+            <br>
+            <p> This is a demo text [Franz_Kafka](https://en.wikipedia.org/wiki/Franz_Kafka) 
+                [Albert_Camus](https://fr.wikipedia.org/wiki/Albert_Camus) to find 
+                urls included in a markdown document [Claude_Monet](https://en.wikipedia.org/wiki/Claude_Monet)</p>
         </div>
         </section>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script src="./lib/modules/getUrlsMd.js"></script>
         <script src="js/app.js"></script>
     </body>

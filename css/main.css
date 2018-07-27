@@ -13,7 +13,7 @@ html {
     padding: 3px 10px;
     padding-bottom: 30px;
     position: relative;
-    width: 45em;
+    width: 46em;
  }
 
 #userInput {
@@ -28,10 +28,19 @@ html {
     width: 40em;
 }
 
+#buttons{
+    position: relative;
+    left: 103px;
+}
+
 button {
     padding: 8px 59px;
     position: relative;
     right: 232px;
+}
+
+#btn {
+    margin-right: 13px;
 }
 
 #showResult {
@@ -42,14 +51,14 @@ button {
     display: inline-flex;
     height: 5em;
     margin-top: 16px;
+    margin-bottom: 29px;
     padding: 12px 20px;
     resize: none;
     width: 40em;
 }
 
-#copyIcon {
-    color: white;
-    left: 598px;
-    margin-top: 82px;
+#demo {
+    text-align: left;
     position: relative;
+    left: 38px;
 }
